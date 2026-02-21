@@ -2,7 +2,7 @@ import Layout from "@/components/Layout";
 
 const menuData = {
   "Entrées": [
-    { name: "Foie Gras Mi-Cuit", desc: "Chutney de figues, pain brioché toasté", price: "24€" },
+    { name: "Foie Gras Mi-Cuit", desc: "Chutney de figues, pain brioché toasté", price: "7000 FCFA" },
     { name: "Velouté de Châtaignes", desc: "Crème de truffe noire, éclats de noisettes torréfiées", price: "18€" },
     { name: "Tartare de Féra du Lac", desc: "Agrumes, aneth, huile d'olive citronnée", price: "22€" },
     { name: "Œuf Parfait 64°", desc: "Mouillettes de beaufort, crème de cèpes", price: "16€" },
