@@ -4,9 +4,7 @@ import { Menu, X } from "lucide-react";
 
 const links = [
   { to: "/", label: "Accueil" },
-  { to: "/carte", label: "La Carte" },
-  { to: "/galerie", label: "Galerie" },
-  { to: "/reservation", label: "Réservation" },
+  { to: "/services", label: "Services" },
   { to: "/contact", label: "Contact" },
 ];
 
@@ -17,33 +15,38 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
-        <Link to="/" className="font-display text-2xl font-bold tracking-wider text-foreground">
-          LES BALMINS
+        <Link to="/" className="font-display text-xl font-bold tracking-tight text-foreground">
+          <span className="text-accent">[</span>NOTORIOUS<span className="text-accent">]</span>
         </Link>
 
-        {/* Desktop */}
         <ul className="hidden md:flex items-center gap-8">
           {links.map((l) => (
             <li key={l.to}>
               <Link
                 to={l.to}
-                className={`text-sm uppercase tracking-widest transition-colors hover:text-accent ${
-                  location.pathname === l.to ? "text-accent font-semibold" : "text-muted-foreground"
+                className={`text-sm font-medium transition-colors hover:text-accent ${
+                  location.pathname === l.to ? "text-accent" : "text-muted-foreground"
                 }`}
               >
                 {l.label}
               </Link>
             </li>
           ))}
+          <li>
+            <Link
+              to="/contact"
+              className="bg-accent text-accent-foreground px-5 py-2 rounded-md text-sm font-semibold hover:bg-accent/90 transition-colors"
+            >
+              Demander un devis
+            </Link>
+          </li>
         </ul>
 
-        {/* Mobile toggle */}
         <button className="md:hidden text-foreground" onClick={() => setOpen(!open)} aria-label="Menu">
           {open ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
 
-      {/* Mobile menu */}
       {open && (
         <div className="md:hidden bg-background border-b border-border">
           <ul className="flex flex-col items-center gap-4 py-6">
@@ -52,14 +55,23 @@ const Navbar = () => {
                 <Link
                   to={l.to}
                   onClick={() => setOpen(false)}
-                  className={`text-sm uppercase tracking-widest transition-colors hover:text-accent ${
-                    location.pathname === l.to ? "text-accent font-semibold" : "text-muted-foreground"
+                  className={`text-sm font-medium transition-colors hover:text-accent ${
+                    location.pathname === l.to ? "text-accent" : "text-muted-foreground"
                   }`}
                 >
                   {l.label}
                 </Link>
               </li>
             ))}
+            <li>
+              <Link
+                to="/contact"
+                onClick={() => setOpen(false)}
+                className="bg-accent text-accent-foreground px-5 py-2 rounded-md text-sm font-semibold"
+              >
+                Demander un devis
+              </Link>
+            </li>
           </ul>
         </div>
       )}
