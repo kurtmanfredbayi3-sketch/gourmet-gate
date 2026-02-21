@@ -8,7 +8,7 @@ const plans = [
     price: "150 000",
     desc: "Idéal pour les entrepreneurs qui démarrent leur présence en ligne.",
     features: [
-      "Site vitrine 1–3 pages",
+      "Site vitrine 1–2 pages",
       "Design responsive mobile",
       "Formulaire de contact",
       "Optimisation SEO de base",
