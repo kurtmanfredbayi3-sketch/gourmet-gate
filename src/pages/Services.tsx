@@ -5,7 +5,7 @@ import { ArrowRight, Check } from "lucide-react";
 const plans = [
   {
     name: "Essentiel",
-    price: "150 000",
+    price: "60 000",
     desc: "Idéal pour les entrepreneurs qui démarrent leur présence en ligne.",
     features: [
       "Site vitrine 1–2 pages",
