@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Layout from "@/components/Layout";
 import heroImg from "@/assets/hero-agency.jpg";
+import founderImg from "@/assets/founder.jpg";
 import { ArrowRight, Globe, Palette, Search, TrendingUp, CheckCircle2, Star, Users, Zap } from "lucide-react";
 
 const services = [
@@ -57,14 +58,21 @@ const Index = () => (
 
     {/* À propos */}
     <section className="py-24 px-4">
-      <div className="container mx-auto max-w-3xl text-center">
-        <p className="text-accent uppercase tracking-widest text-sm font-semibold mb-4">À propos</p>
-        <h2 className="font-display text-3xl md:text-4xl font-bold mb-6 text-foreground">
+      <div className="container mx-auto max-w-4xl">
+        <p className="text-accent uppercase tracking-widest text-sm font-semibold mb-4 text-center">À propos</p>
+        <h2 className="font-display text-3xl md:text-4xl font-bold mb-12 text-foreground text-center">
           Votre partenaire digital à Yaoundé
         </h2>
-        <p className="text-muted-foreground leading-relaxed text-lg">
-          <strong className="text-foreground">NOTORIOUS AGENCY</strong> accompagne les entreprises camerounaises dans leur transformation digitale. De la conception de sites web au référencement local, nous mettons notre expertise au service de votre croissance. Notre mission : rendre le digital accessible, performant et rentable pour chaque entrepreneur.
-        </p>
+        <div className="flex flex-col md:flex-row items-center gap-10">
+          <div className="shrink-0">
+            <img src={founderImg} alt="Fondateur de NOTORIOUS AGENCY" className="w-40 h-40 md:w-52 md:h-52 rounded-full object-cover border-4 border-accent/30 shadow-lg" />
+            <p className="font-display font-bold text-foreground text-center mt-4">Votre nom</p>
+            <p className="text-accent text-sm text-center">Fondateur</p>
+          </div>
+          <p className="text-muted-foreground leading-relaxed text-lg">
+            <strong className="text-foreground">NOTORIOUS AGENCY</strong> accompagne les entreprises camerounaises dans leur transformation digitale. De la conception de sites web au référencement local, nous mettons notre expertise au service de votre croissance. Notre mission : rendre le digital accessible, performant et rentable pour chaque entrepreneur.
+          </p>
+        </div>
       </div>
     </section>
 
