@@ -44,7 +44,7 @@ const plans = [
       "Stratégie SEO complète",
       "Rédaction de contenu professionnel",
       "Formation à la gestion du site",
-      "Hébergement 2 ans + domaine",
+      
       "Maintenance & support 6 mois",
     ],
     highlighted: false,
