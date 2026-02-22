@@ -65,8 +65,8 @@ const Index = () => (
         </h2>
         <div className="flex flex-col md:flex-row items-center gap-10">
           <div className="shrink-0">
-            <img src={founderImg} alt="Fondateur de NOTORIOUS AGENCY" className="w-40 h-40 md:w-52 md:h-52 rounded-full object-cover border-4 border-accent/30 shadow-lg" />
-            <p className="font-display font-bold text-foreground text-center mt-4">Votre nom</p>
+          <img src={founderImg} alt="M. BAYI PONDI KURT — Fondateur de NOTORIOUS AGENCY" className="w-40 h-40 md:w-52 md:h-52 rounded-full object-cover object-top border-4 border-accent/30 shadow-lg" />
+            <p className="font-display font-bold text-foreground text-center mt-4">M. BAYI PONDI KURT</p>
             <p className="text-accent text-sm text-center">Fondateur</p>
           </div>
           <p className="text-muted-foreground leading-relaxed text-lg">
