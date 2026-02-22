@@ -75,7 +75,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-display font-semibold text-foreground">Téléphone</h3>
-                  <p className="text-muted-foreground text-sm">+237 6XX XXX XXX</p>
+                  <p className="text-muted-foreground text-sm">+237 687 185 835</p>
                 </div>
               </div>
 
@@ -95,7 +95,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-display font-semibold text-foreground">WhatsApp Business</h3>
-                  <a href="https://wa.me/237600000000" target="_blank" rel="noopener noreferrer" className="text-accent text-sm hover:underline">
+                  <a href="https://wa.me/237683213964" target="_blank" rel="noopener noreferrer" className="text-accent text-sm hover:underline">
                     Écrire sur WhatsApp →
                   </a>
                 </div>
@@ -107,8 +107,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-display font-semibold text-foreground">Instagram</h3>
-                  <a href="https://instagram.com/notorious.agency" target="_blank" rel="noopener noreferrer" className="text-accent text-sm hover:underline">
-                    @notorious.agency →
+                  <a href="https://instagram.com/notorious.agency1" target="_blank" rel="noopener noreferrer" className="text-accent text-sm hover:underline">
+                    @notorious.agency1 →
                   </a>
                 </div>
               </div>

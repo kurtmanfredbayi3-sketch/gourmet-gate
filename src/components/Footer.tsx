@@ -18,6 +18,7 @@ const Footer = () => (
         <ul className="space-y-2 text-sm text-primary-foreground/70">
           <li><Link to="/" className="hover:text-accent transition-colors">Accueil</Link></li>
           <li><Link to="/services" className="hover:text-accent transition-colors">Services</Link></li>
+          <li><Link to="/portfolio" className="hover:text-accent transition-colors">Portfolio</Link></li>
           <li><Link to="/contact" className="hover:text-accent transition-colors">Contact</Link></li>
         </ul>
       </div>
@@ -25,7 +26,7 @@ const Footer = () => (
       <div>
         <h4 className="font-display text-lg font-semibold mb-4">Contact</h4>
         <div className="space-y-2 text-sm text-primary-foreground/70">
-          <p className="flex items-center gap-2"><Phone size={14} /> +237 6XX XXX XXX</p>
+          <p className="flex items-center gap-2"><Phone size={14} /> +237 687 185 835</p>
           <p className="flex items-center gap-2"><Mail size={14} /> contact@notorious.agency</p>
           <p className="flex items-center gap-2"><MapPin size={14} /> Yaoundé, Cameroun</p>
         </div>
