@@ -35,7 +35,7 @@ const plans = [
   },
   {
     name: "Premium",
-    price: "220 000",
+    price: "750 000",
     desc: "Solution complète pour les entreprises ambitieuses qui visent l'excellence.",
     features: [
       "Site sur mesure illimité",
