@@ -19,7 +19,7 @@ const plans = [
   },
   {
     name: "Business",
-    price: "150 000",
+    price: "550 000",
     desc: "Pour les entreprises qui veulent se démarquer et convertir plus de clients.",
     features: [
       "Site jusqu'à 7 pages",
@@ -27,7 +27,7 @@ const plans = [
       "Intégration WhatsApp & réseaux sociaux",
       "SEO local avancé (Google My Business)",
       "Blog intégré",
-      "Hébergement 1 an + domaine offert",
+      "Hébergement 1 an",
       "Livraison en 10 jours",
       "Support prioritaire 3 mois",
     ],
