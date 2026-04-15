@@ -19,7 +19,7 @@ const plans = [
   },
   {
     name: "Business",
-    price: "550 000",
+    price: "250 000",
     desc: "Pour les entreprises qui veulent se démarquer et convertir plus de clients.",
     features: [
       "Site jusqu'à 7 pages",
